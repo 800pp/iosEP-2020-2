@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482988ED256481CA00427B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482988EC256481CA00427B08 /* AppDelegate.swift */; };
+		482988EF256481CA00427B08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482988EE256481CA00427B08 /* SceneDelegate.swift */; };
+		482988F1256481CA00427B08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482988F0256481CA00427B08 /* ViewController.swift */; };
+		482988F4256481CA00427B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482988F2256481CA00427B08 /* Main.storyboard */; };
+		482988F7256481CA00427B08 /* cofranTF.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 482988F5256481CA00427B08 /* cofranTF.xcdatamodeld */; };
+		482988F9256481CB00427B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482988F8256481CB00427B08 /* Assets.xcassets */; };
+		482988FC256481CB00427B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482988FA256481CB00427B08 /* LaunchScreen.storyboard */; };
+		482989042564A7C800427B08 /* UsernameRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482989032564A7C800427B08 /* UsernameRequestController.swift */; };
+		482989062564BCF800427B08 /* PasswordConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482989052564BCF800427B08 /* PasswordConfirmationController.swift */; };
+		482FD8482565C1E700BECBC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 482FD8472565C1E700BECBC7 /* GoogleService-Info.plist */; };
+		48ADE1682567202500A114D3 /* RecoverPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADE1672567202500A114D3 /* RecoverPasswordViewController.swift */; };
+		48ADE16A25672B8F00A114D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADE16925672B8F00A114D3 /* HomeViewController.swift */; };
+		6ADDA404E448336C4B15C7EB /* Pods_cofranTF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25023554F5F3E28F97F0B218 /* Pods_cofranTF.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25023554F5F3E28F97F0B218 /* Pods_cofranTF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cofranTF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344F82A028E8AA15CECEEEBA /* Pods-cofranTF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cofranTF.debug.xcconfig"; path = "Target Support Files/Pods-cofranTF/Pods-cofranTF.debug.xcconfig"; sourceTree = "<group>"; };
+		36A26AC5B03A9A7117519E10 /* Pods-cofranTF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cofranTF.release.xcconfig"; path = "Target Support Files/Pods-cofranTF/Pods-cofranTF.release.xcconfig"; sourceTree = "<group>"; };
+		482988E9256481CA00427B08 /* cofranTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cofranTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		482988EC256481CA00427B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		482988EE256481CA00427B08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		482988F0256481CA00427B08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		482988F3256481CA00427B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		482988F6256481CA00427B08 /* cofranTF.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cofranTF.xcdatamodel; sourceTree = "<group>"; };
+		482988F8256481CB00427B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		482988FB256481CB00427B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		482988FD256481CB00427B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482989032564A7C800427B08 /* UsernameRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameRequestController.swift; sourceTree = "<group>"; };
+		482989052564BCF800427B08 /* PasswordConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConfirmationController.swift; sourceTree = "<group>"; };
+		482FD8472565C1E700BECBC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48ADE1672567202500A114D3 /* RecoverPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordViewController.swift; sourceTree = "<group>"; };
+		48ADE16925672B8F00A114D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482988E6256481CA00427B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDA404E448336C4B15C7EB /* Pods_cofranTF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482988E0256481CA00427B08 = {
+			isa = PBXGroup;
+			children = (
+				482988EB256481CA00427B08 /* cofranTF */,
+				482988EA256481CA00427B08 /* Products */,
+				D04FDCD13AF4EC7F608E01A3 /* Pods */,
+				FE60D125D81AAEFE128353A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		482988EA256481CA00427B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482988E9256481CA00427B08 /* cofranTF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		482988EB256481CA00427B08 /* cofranTF */ = {
+			isa = PBXGroup;
+			children = (
+				482FD8472565C1E700BECBC7 /* GoogleService-Info.plist */,
+				482988EC256481CA00427B08 /* AppDelegate.swift */,
+				482988EE256481CA00427B08 /* SceneDelegate.swift */,
+				482988F0256481CA00427B08 /* ViewController.swift */,
+				482988F2256481CA00427B08 /* Main.storyboard */,
+				482988F8256481CB00427B08 /* Assets.xcassets */,
+				482988FA256481CB00427B08 /* LaunchScreen.storyboard */,
+				482988FD256481CB00427B08 /* Info.plist */,
+				482988F5256481CA00427B08 /* cofranTF.xcdatamodeld */,
+				482989032564A7C800427B08 /* UsernameRequestController.swift */,
+				482989052564BCF800427B08 /* PasswordConfirmationController.swift */,
+				48ADE1672567202500A114D3 /* RecoverPasswordViewController.swift */,
+				48ADE16925672B8F00A114D3 /* HomeViewController.swift */,
+			);
+			path = cofranTF;
+			sourceTree = "<group>";
+		};
+		D04FDCD13AF4EC7F608E01A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344F82A028E8AA15CECEEEBA /* Pods-cofranTF.debug.xcconfig */,
+				36A26AC5B03A9A7117519E10 /* Pods-cofranTF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE60D125D81AAEFE128353A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25023554F5F3E28F97F0B218 /* Pods_cofranTF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		482988E8256481CA00427B08 /* cofranTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48298900256481CB00427B08 /* Build configuration list for PBXNativeTarget "cofranTF" */;
+			buildPhases = (
+				EEACC214875A56C41E8705C6 /* [CP] Check Pods Manifest.lock */,
+				482988E5256481CA00427B08 /* Sources */,
+				482988E6256481CA00427B08 /* Frameworks */,
+				482988E7256481CA00427B08 /* Resources */,
+				ABEE161006F74FCE69692634 /* [CP] Embed Pods Frameworks */,
+				0EC84085DC54E81A4BBB79B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cofranTF;
+			productName = cofranTF;
+			productReference = 482988E9256481CA00427B08 /* cofranTF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482988E1256481CA00427B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = isil;
+				TargetAttributes = {
+					482988E8256481CA00427B08 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 482988E4256481CA00427B08 /* Build configuration list for PBXProject "cofranTF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 482988E0256481CA00427B08;
+			productRefGroup = 482988EA256481CA00427B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482988E8256481CA00427B08 /* cofranTF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482988E7256481CA00427B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482988FC256481CB00427B08 /* LaunchScreen.storyboard in Resources */,
+				482FD8482565C1E700BECBC7 /* GoogleService-Info.plist in Resources */,
+				482988F9256481CB00427B08 /* Assets.xcassets in Resources */,
+				482988F4256481CA00427B08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC84085DC54E81A4BBB79B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cofranTF/Pods-cofranTF-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cofranTF/Pods-cofranTF-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cofranTF/Pods-cofranTF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEE161006F74FCE69692634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cofranTF/Pods-cofranTF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cofranTF/Pods-cofranTF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cofranTF/Pods-cofranTF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEACC214875A56C41E8705C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cofranTF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		482988E5256481CA00427B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482989042564A7C800427B08 /* UsernameRequestController.swift in Sources */,
+				482989062564BCF800427B08 /* PasswordConfirmationController.swift in Sources */,
+				482988F7256481CA00427B08 /* cofranTF.xcdatamodeld in Sources */,
+				48ADE16A25672B8F00A114D3 /* HomeViewController.swift in Sources */,
+				482988F1256481CA00427B08 /* ViewController.swift in Sources */,
+				48ADE1682567202500A114D3 /* RecoverPasswordViewController.swift in Sources */,
+				482988ED256481CA00427B08 /* AppDelegate.swift in Sources */,
+				482988EF256481CA00427B08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		482988F2256481CA00427B08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482988F3256481CA00427B08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		482988FA256481CB00427B08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482988FB256481CB00427B08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		482988FE256481CB00427B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		482988FF256481CB00427B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48298901256481CB00427B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344F82A028E8AA15CECEEEBA /* Pods-cofranTF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cofranTF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.cofranTF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48298902256481CB00427B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A26AC5B03A9A7117519E10 /* Pods-cofranTF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cofranTF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.cofranTF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		482988E4256481CA00427B08 /* Build configuration list for PBXProject "cofranTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482988FE256481CB00427B08 /* Debug */,
+				482988FF256481CB00427B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48298900256481CB00427B08 /* Build configuration list for PBXNativeTarget "cofranTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48298901256481CB00427B08 /* Debug */,
+				48298902256481CB00427B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		482988F5256481CA00427B08 /* cofranTF.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				482988F6256481CA00427B08 /* cofranTF.xcdatamodel */,
+			);
+			currentVersion = 482988F6256481CA00427B08 /* cofranTF.xcdatamodel */;
+			path = cofranTF.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 482988E1256481CA00427B08 /* Project object */;
+}

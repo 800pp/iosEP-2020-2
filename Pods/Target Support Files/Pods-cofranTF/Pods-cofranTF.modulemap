@@ -1,0 +1,6 @@
+framework module Pods_cofranTF {
+  umbrella header "Pods-cofranTF-umbrella.h"
+
+  export *
+  module * { export * }
+}
